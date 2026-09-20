@@ -2,20 +2,21 @@
   "packages": [
     {
       "id": "app.nuvio.legacy",
+      "title": "Nuvio Streaming (Legacy)",
       "version": "1.3.4",
       "type": "native",
-      "title": "Nuvio Streaming (Legacy)",
-      "appDescription": "Cliente de streaming nativo Nuvio para webOS.",
-      "icon": "https://raw.githubusercontent.com/iqui27/nuvio-native-legacy/main/assets/icon.png",
-      "sourceUrl": "https://github.com/iqui27/nuvio-native-legacy",
+      "category": "Media",
+      "brief": "Cliente nativo Nuvio para webOS",
+      "detail": "Cliente de streaming nativo Nuvio para webOS.",
+      "iconUri": "https://raw.githubusercontent.com/iqui27/nuvio-native-legacy/main/assets/icon.png",
       "manifest": {
         "id": "app.nuvio.legacy",
         "version": "1.3.4",
         "type": "native",
+        "title": "Nuvio Streaming (Legacy)",
         "ipkUrl": "https://github.com/iqui27/nuvio-native-legacy/releases/download/v1.3.4/nuvio-native-legacy_1.3.4_arm.ipk",
-        "ipkHash": {
-          "sha256": ""
-        }
+        "hasIcon": false,
+        "requiredMemory": 0
       }
     }
   ]
