@@ -21,7 +21,9 @@
         "sourceUrl": "https://github.com/iqui27/nuvio-native-legacy",
         "rootRequired": false,
         "ipkUrl": "https://github.com/iqui27/nuvio-native-legacy/releases/download/v1.3.4/space.nuvio.native.legacy_1.3.4_arm.ipk",
-        "ipkHash": {}
+        "ipkHash": {
+          "sha256": "sha256:42740627b9be4dd18fc7e522812cba9e0fb5e4ee25b839eac8e7ce84b9cfa229"
+        }
       }
     },
     {
@@ -45,7 +47,9 @@
         "sourceUrl": "https://github.com/iqui27/nuvio-native-legacy",
         "rootRequired": false,
         "ipkUrl": "https://github.com/iqui27/nuvio-native-legacy/releases/download/v1.3.4/space.nuvio.native.legacy_1.3.4_arm-highcache.ipk",
-        "ipkHash": {}
+        "ipkHash": {
+          "sha256": "sha256:b71eb8c85a9dfd692bc067c2428e818420cb67fc0487f76153752166db9f7420"
+        }
       }
     }
   ]
