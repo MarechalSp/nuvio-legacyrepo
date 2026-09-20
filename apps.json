@@ -2,21 +2,38 @@
   "packages": [
     {
       "id": "app.nuvio.legacy",
-      "title": "Nuvio Streaming (Legacy)",
+      "title": "Nuvio Native Legacy",
       "version": "1.3.4",
       "type": "native",
       "category": "Media",
-      "brief": "Cliente nativo Nuvio para webOS",
-      "detail": "Cliente de streaming nativo Nuvio para webOS.",
+      "brief": "Cliente nativo Nuvio para webOS (Versão Padrão)",
+      "detail": "Cliente nativo Nuvio em C/SDL2 para LG webOS. Versão padrão otimizada para modelos com menor quantidade de memória RAM.",
       "iconUri": "https://raw.githubusercontent.com/iqui27/nuvio-native-legacy/main/assets/icon.png",
       "manifest": {
         "id": "app.nuvio.legacy",
         "version": "1.3.4",
         "type": "native",
-        "title": "Nuvio Streaming (Legacy)",
-        "ipkUrl": "https://github.com/iqui27/nuvio-native-legacy/releases/download/v1.3.4/nuvio-native-legacy_1.3.4_arm.ipk",
-        "hasIcon": false,
-        "requiredMemory": 0
+        "title": "Nuvio Native Legacy",
+        "appDescription": "Cliente nativo Nuvio para webOS",
+        "ipkUrl": "https://github.com/iqui27/nuvio-native-legacy/releases/download/v1.3.4/nuvio-native-legacy_1.3.4_arm.ipk"
+      }
+    },
+    {
+      "id": "app.nuvio.legacy.highcache",
+      "title": "Nuvio Native (High Cache)",
+      "version": "1.3.4",
+      "type": "native",
+      "category": "Media",
+      "brief": "Cliente nativo Nuvio com limite de cache ampliado (300 MB)",
+      "detail": "Versão High-Cache do Nuvio Native. Recomendada para Smart TVs mais recentes (OLEDs ou modelos com maior folga de memória RAM).",
+      "iconUri": "https://raw.githubusercontent.com/iqui27/nuvio-native-legacy/main/assets/icon.png",
+      "manifest": {
+        "id": "app.nuvio.legacy.highcache",
+        "version": "1.3.4",
+        "type": "native",
+        "title": "Nuvio Native (High Cache)",
+        "appDescription": "Cliente nativo Nuvio com alto cache para webOS",
+        "ipkUrl": "https://github.com/iqui27/nuvio-native-legacy/releases/download/v1.3.4/nuvio-native-legacy-highcache_1.3.4_arm.ipk"
       }
     }
   ]
